@@ -1,0 +1,83 @@
+@keyframes a {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+article {
+  background-image: url(images/clouds.png);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 80px;
+}
+
+h1 {
+  color: #00008b;
+  font-family: Courgette;
+}
+
+h2 {
+  color: #00008b;
+  font-size: 50px;
+  font-family: "Leckerli One";
+}
+
+hr {
+  border-color: #808080;
+  border-width: 3px;
+}
+
+#brand {
+  animation-name: a;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  height: 56px;
+  width: auto;
+}
+
+#carousel {
+  margin-top: 0;
+}
+
+.navbar {
+  font-weight: 700 !important;
+}
+
+.jumbotron > img {
+  display: block;
+  height: 300px;
+  margin: 0 auto !important;
+}
+
+.nav-link:hover {
+  background-color: #808080 !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+main {
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+.media-icons {
+  height: auto;
+  margin: 10px;
+  width: 50px;
+}
